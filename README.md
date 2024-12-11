@@ -19,6 +19,7 @@ Ensure that these libraries are installed before running the project.
 ## Setup Instructions⚙️
 
 ### 1. Open the Project in Google Colab🌐
+- At the top of the notebook file on GitHub, you should see a badge saying "Open in Colab" provided. This allows anyone with access to the repository to open the notebook in Google Colab with a simple click and then make a copy to your drive, or
 - Visit Google Colab and open a new notebook.
 - Upload the `.ipynb` file for this project to Colab environment.
 
