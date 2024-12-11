@@ -19,7 +19,12 @@ Ensure that these libraries are installed before running the project.
 
 ## Setup Instructions⚙️
 
-### 1. Prepare the Dataset
+### 1. Open the Project in Google Colab🌐
+- Visit Google Colab and open a new notebook.
+- Upload the `.ipynb` file for this project to Colab environment.
+
+
+### 2. Prepare the Dataset
 1. **Upload the Dataset to Google Drive**📥:  
    - Place the dataset folder in the `My Drive` section of your Google Drive.  
    - For example, if dataset folder is named `dataset`, its path should look like this:  
@@ -34,12 +39,7 @@ Ensure that these libraries are installed before running the project.
    drive.mount('/content/drive')
    dataset_path = '/content/drive/My Drive/dataset'
 
-
-### 2. Open the Project in Google Colab🌐
-- Visit Google Colab and open a new notebook.
-- Upload the `.ipynb` file for this project to Colab environment.
-
-
+   
 ### 3. Install Required Libraries🧰
 
 
