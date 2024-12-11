@@ -3,7 +3,7 @@
 This project demonstrates a machine learning workflow using Google Colab and datasets stored in Google Drive.
 The Skin Type and Skin Condition model is built both from scratch and using transfer learning with the **InceptionV3** pretrained model. **The fixed model used in this capstone project is the InceptionV3 model due to its superior accuracy compared to other models.**
 
-## Requirements
+## Requirements📋
 The project uses the following libraries:
 - `os`
 - `pickle`
@@ -17,17 +17,17 @@ The project uses the following libraries:
 
 Ensure that these libraries are installed before running the project.
 
-## Setup Instructions
+## Setup Instructions⚙️
 
 ### 1. Prepare the Dataset
-1. **Upload the Dataset to Google Drive**:  
+1. **Upload the Dataset to Google Drive**📥:  
    - Place the dataset folder in the `My Drive` section of your Google Drive.  
    - For example, if dataset folder is named `dataset`, its path should look like this:  
      ```
      /content/drive/My Drive/dataset
      ```
 
-2. **Mount Google Drive in Colab**:  
+2. **Mount Google Drive in Colab**🔗:  
    Add the following code to your notebook to mount Google Drive:  
    ```python
    from google.colab import drive
