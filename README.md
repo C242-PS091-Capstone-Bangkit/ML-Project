@@ -11,7 +11,6 @@ The project uses the following libraries:
 - `tensorflow`
 - `matplotlib`
 - `ipywidgets`
-- `PIL` (Pillow)
 - `sklearn`
 - `torchvision`
 
@@ -21,8 +20,8 @@ Ensure that these libraries are installed before running the project.
 
 ### 1. Prepare the Dataset
 1. **Upload the Dataset to Google Drive**:  
-   - Place your dataset folder in the `My Drive` section of your Google Drive.  
-   - For example, if your dataset folder is named `dataset`, its path should look like this:  
+   - Place the dataset folder in the `My Drive` section of your Google Drive.  
+   - For example, if dataset folder is named `dataset`, its path should look like this:  
      ```
      /content/drive/My Drive/dataset
      ```
@@ -33,3 +32,10 @@ Ensure that these libraries are installed before running the project.
    from google.colab import drive
    drive.mount('/content/drive')
    dataset_path = '/content/drive/My Drive/dataset'
+
+### 2. Open the Project in Google Colab
+1. Visit Google Colab and open a new notebook.
+2. Upload the `.ipynb` file for this project to Colab environment.
+
+### 3. Install Required Libraries
+
