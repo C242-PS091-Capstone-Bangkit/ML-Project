@@ -1,7 +1,6 @@
 # Machine Learning Project - Model Implementation 🚀
 
-This project demonstrates a machine learning workflow using Google Colab and datasets stored in Google Drive.
-The Skin Type and Skin Condition model is built both from scratch and using transfer learning with the **InceptionV3** pretrained model. **The fixed model used in this capstone project is the InceptionV3 model due to its superior accuracy compared to other models.**
+This project demonstrates a machine learning workflow using Google Colab and datasets stored in Google Drive. The Skin Type and Skin Condition model is built both from scratch and using transfer learning with the InceptionV3 pretrained model. The fixed model used in this capstone project is the InceptionV3 model due to its superior accuracy compared to other models. Additionally, we perform fine-tuning on the InceptionV3 model to improve its performance by training it on our specific dataset, allowing the model to adjust its weights for better accuracy on skin type and skin condition classification tasks.
 
 ## Requirements📋
 The project uses the following libraries:
