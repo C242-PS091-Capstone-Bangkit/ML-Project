@@ -11,9 +11,9 @@ The project uses the following libraries:
 - `numpy`
 - `tensorflow`
 - `matplotlib`
-- `ipywidgets`
 - `sklearn`
 - `torchvision`
+- `from google.colab import files`
 
 Ensure that these libraries are installed before running the project.
 
